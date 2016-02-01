@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4805D09B1C5AF86400C397DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4805D09A1C5AF86400C397DA /* main.m */; };
+		4805D09E1C5AF86400C397DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4805D09D1C5AF86400C397DA /* AppDelegate.m */; };
+		4805D0A11C5AF86400C397DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4805D0A01C5AF86400C397DA /* ViewController.m */; };
+		4805D0A41C5AF86400C397DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4805D0A21C5AF86400C397DA /* Main.storyboard */; };
+		4805D0A61C5AF86400C397DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4805D0A51C5AF86400C397DA /* Assets.xcassets */; };
+		4805D0A91C5AF86400C397DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4805D0A71C5AF86400C397DA /* LaunchScreen.storyboard */; };
+		4805D0B41C5AF86400C397DA /* ScalableRouteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4805D0B31C5AF86400C397DA /* ScalableRouteTests.m */; };
+		486310DF1C5FDB3D00B4E623 /* SRSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 486310DE1C5FDB3D00B4E623 /* SRSessionManager.m */; };
+		784C2FB69E83C2C18CC08AC0 /* libPods-ScalableRoute.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C804AEB710034B043C5E2C /* libPods-ScalableRoute.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4805D0B01C5AF86400C397DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4805D08E1C5AF86400C397DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4805D0951C5AF86400C397DA;
+			remoteInfo = ScalableRoute;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4805D0961C5AF86400C397DA /* ScalableRoute.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScalableRoute.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4805D09A1C5AF86400C397DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4805D09C1C5AF86400C397DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4805D09D1C5AF86400C397DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4805D09F1C5AF86400C397DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4805D0A01C5AF86400C397DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4805D0A31C5AF86400C397DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4805D0A51C5AF86400C397DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4805D0A81C5AF86400C397DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4805D0AA1C5AF86400C397DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4805D0AF1C5AF86400C397DA /* ScalableRouteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScalableRouteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4805D0B31C5AF86400C397DA /* ScalableRouteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScalableRouteTests.m; sourceTree = "<group>"; };
+		4805D0B51C5AF86400C397DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		486310DB1C5FD7D500B4E623 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		486310DD1C5FDB3D00B4E623 /* SRSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSessionManager.h; sourceTree = "<group>"; };
+		486310DE1C5FDB3D00B4E623 /* SRSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSessionManager.m; sourceTree = "<group>"; };
+		64EF8BB550A6090929E7F724 /* Pods-ScalableRoute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScalableRoute.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScalableRoute/Pods-ScalableRoute.release.xcconfig"; sourceTree = "<group>"; };
+		D0C804AEB710034B043C5E2C /* libPods-ScalableRoute.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScalableRoute.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC236C60CE8172C0F67BA90 /* Pods-ScalableRoute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScalableRoute.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScalableRoute/Pods-ScalableRoute.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4805D0931C5AF86400C397DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784C2FB69E83C2C18CC08AC0 /* libPods-ScalableRoute.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4805D0AC1C5AF86400C397DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CA0382154C6DA2148A2DF2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEC236C60CE8172C0F67BA90 /* Pods-ScalableRoute.debug.xcconfig */,
+				64EF8BB550A6090929E7F724 /* Pods-ScalableRoute.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4805D08D1C5AF86400C397DA = {
+			isa = PBXGroup;
+			children = (
+				4805D0981C5AF86400C397DA /* ScalableRoute */,
+				4805D0B21C5AF86400C397DA /* ScalableRouteTests */,
+				4805D0971C5AF86400C397DA /* Products */,
+				3CA0382154C6DA2148A2DF2E /* Pods */,
+				C4E1B10D2A822E9255CAF3E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4805D0971C5AF86400C397DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4805D0961C5AF86400C397DA /* ScalableRoute.app */,
+				4805D0AF1C5AF86400C397DA /* ScalableRouteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4805D0981C5AF86400C397DA /* ScalableRoute */ = {
+			isa = PBXGroup;
+			children = (
+				486310DC1C5FDB1200B4E623 /* Networking */,
+				4805D09C1C5AF86400C397DA /* AppDelegate.h */,
+				4805D09D1C5AF86400C397DA /* AppDelegate.m */,
+				4805D09F1C5AF86400C397DA /* ViewController.h */,
+				4805D0A01C5AF86400C397DA /* ViewController.m */,
+				4805D0A21C5AF86400C397DA /* Main.storyboard */,
+				4805D0A51C5AF86400C397DA /* Assets.xcassets */,
+				4805D0A71C5AF86400C397DA /* LaunchScreen.storyboard */,
+				4805D0AA1C5AF86400C397DA /* Info.plist */,
+				486310DB1C5FD7D500B4E623 /* PrefixHeader.pch */,
+				4805D0991C5AF86400C397DA /* Supporting Files */,
+			);
+			path = ScalableRoute;
+			sourceTree = "<group>";
+		};
+		4805D0991C5AF86400C397DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4805D09A1C5AF86400C397DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4805D0B21C5AF86400C397DA /* ScalableRouteTests */ = {
+			isa = PBXGroup;
+			children = (
+				4805D0B31C5AF86400C397DA /* ScalableRouteTests.m */,
+				4805D0B51C5AF86400C397DA /* Info.plist */,
+			);
+			path = ScalableRouteTests;
+			sourceTree = "<group>";
+		};
+		486310DC1C5FDB1200B4E623 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				486310DD1C5FDB3D00B4E623 /* SRSessionManager.h */,
+				486310DE1C5FDB3D00B4E623 /* SRSessionManager.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C4E1B10D2A822E9255CAF3E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0C804AEB710034B043C5E2C /* libPods-ScalableRoute.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4805D0951C5AF86400C397DA /* ScalableRoute */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4805D0B81C5AF86400C397DA /* Build configuration list for PBXNativeTarget "ScalableRoute" */;
+			buildPhases = (
+				E659E62D3A41982001D33060 /* Check Pods Manifest.lock */,
+				4805D0921C5AF86400C397DA /* Sources */,
+				4805D0931C5AF86400C397DA /* Frameworks */,
+				4805D0941C5AF86400C397DA /* Resources */,
+				14854A0CEBCAD07089026AD0 /* Embed Pods Frameworks */,
+				A50609F74E304C7BF3FAA494 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScalableRoute;
+			productName = ScalableRoute;
+			productReference = 4805D0961C5AF86400C397DA /* ScalableRoute.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4805D0AE1C5AF86400C397DA /* ScalableRouteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4805D0BB1C5AF86400C397DA /* Build configuration list for PBXNativeTarget "ScalableRouteTests" */;
+			buildPhases = (
+				4805D0AB1C5AF86400C397DA /* Sources */,
+				4805D0AC1C5AF86400C397DA /* Frameworks */,
+				4805D0AD1C5AF86400C397DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4805D0B11C5AF86400C397DA /* PBXTargetDependency */,
+			);
+			name = ScalableRouteTests;
+			productName = ScalableRouteTests;
+			productReference = 4805D0AF1C5AF86400C397DA /* ScalableRouteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4805D08E1C5AF86400C397DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Stanislav Shpak";
+				TargetAttributes = {
+					4805D0951C5AF86400C397DA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4805D0AE1C5AF86400C397DA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4805D0951C5AF86400C397DA;
+					};
+				};
+			};
+			buildConfigurationList = 4805D0911C5AF86400C397DA /* Build configuration list for PBXProject "ScalableRoute" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4805D08D1C5AF86400C397DA;
+			productRefGroup = 4805D0971C5AF86400C397DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4805D0951C5AF86400C397DA /* ScalableRoute */,
+				4805D0AE1C5AF86400C397DA /* ScalableRouteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4805D0941C5AF86400C397DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4805D0A91C5AF86400C397DA /* LaunchScreen.storyboard in Resources */,
+				4805D0A61C5AF86400C397DA /* Assets.xcassets in Resources */,
+				4805D0A41C5AF86400C397DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4805D0AD1C5AF86400C397DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14854A0CEBCAD07089026AD0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScalableRoute/Pods-ScalableRoute-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A50609F74E304C7BF3FAA494 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScalableRoute/Pods-ScalableRoute-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E659E62D3A41982001D33060 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4805D0921C5AF86400C397DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4805D0A11C5AF86400C397DA /* ViewController.m in Sources */,
+				486310DF1C5FDB3D00B4E623 /* SRSessionManager.m in Sources */,
+				4805D09E1C5AF86400C397DA /* AppDelegate.m in Sources */,
+				4805D09B1C5AF86400C397DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4805D0AB1C5AF86400C397DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4805D0B41C5AF86400C397DA /* ScalableRouteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4805D0B11C5AF86400C397DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4805D0951C5AF86400C397DA /* ScalableRoute */;
+			targetProxy = 4805D0B01C5AF86400C397DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4805D0A21C5AF86400C397DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4805D0A31C5AF86400C397DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4805D0A71C5AF86400C397DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4805D0A81C5AF86400C397DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4805D0B61C5AF86400C397DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4805D0B71C5AF86400C397DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4805D0B91C5AF86400C397DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC236C60CE8172C0F67BA90 /* Pods-ScalableRoute.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ScalableRoute/PrefixHeader.pch";
+				INFOPLIST_FILE = ScalableRoute/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shpasta.ScalableRoute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4805D0BA1C5AF86400C397DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64EF8BB550A6090929E7F724 /* Pods-ScalableRoute.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ScalableRoute/PrefixHeader.pch";
+				INFOPLIST_FILE = ScalableRoute/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shpasta.ScalableRoute;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4805D0BC1C5AF86400C397DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScalableRouteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shpasta.ScalableRouteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScalableRoute.app/ScalableRoute";
+			};
+			name = Debug;
+		};
+		4805D0BD1C5AF86400C397DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScalableRouteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shpasta.ScalableRouteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScalableRoute.app/ScalableRoute";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4805D0911C5AF86400C397DA /* Build configuration list for PBXProject "ScalableRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4805D0B61C5AF86400C397DA /* Debug */,
+				4805D0B71C5AF86400C397DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4805D0B81C5AF86400C397DA /* Build configuration list for PBXNativeTarget "ScalableRoute" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4805D0B91C5AF86400C397DA /* Debug */,
+				4805D0BA1C5AF86400C397DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4805D0BB1C5AF86400C397DA /* Build configuration list for PBXNativeTarget "ScalableRouteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4805D0BC1C5AF86400C397DA /* Debug */,
+				4805D0BD1C5AF86400C397DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4805D08E1C5AF86400C397DA /* Project object */;
+}
