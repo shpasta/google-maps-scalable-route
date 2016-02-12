@@ -16,6 +16,8 @@
 		4805D0B41C5AF86400C397DA /* ScalableRouteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4805D0B31C5AF86400C397DA /* ScalableRouteTests.m */; };
 		486310DF1C5FDB3D00B4E623 /* SRSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 486310DE1C5FDB3D00B4E623 /* SRSessionManager.m */; };
 		784C2FB69E83C2C18CC08AC0 /* libPods-ScalableRoute.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C804AEB710034B043C5E2C /* libPods-ScalableRoute.a */; };
+		9D59AB4E1C6E6E14008D22CF /* GoogleMapsKeyProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D59AB4D1C6E6E14008D22CF /* GoogleMapsKeyProvider.m */; };
+		9D59AB4F1C6E6E14008D22CF /* GoogleMapsKeyProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D59AB4D1C6E6E14008D22CF /* GoogleMapsKeyProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		486310DD1C5FDB3D00B4E623 /* SRSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSessionManager.h; sourceTree = "<group>"; };
 		486310DE1C5FDB3D00B4E623 /* SRSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSessionManager.m; sourceTree = "<group>"; };
 		64EF8BB550A6090929E7F724 /* Pods-ScalableRoute.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScalableRoute.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScalableRoute/Pods-ScalableRoute.release.xcconfig"; sourceTree = "<group>"; };
+		9D59AB4C1C6E6E14008D22CF /* GoogleMapsKeyProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMapsKeyProvider.h; sourceTree = "<group>"; };
+		9D59AB4D1C6E6E14008D22CF /* GoogleMapsKeyProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleMapsKeyProvider.m; sourceTree = "<group>"; };
 		D0C804AEB710034B043C5E2C /* libPods-ScalableRoute.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScalableRoute.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC236C60CE8172C0F67BA90 /* Pods-ScalableRoute.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScalableRoute.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScalableRoute/Pods-ScalableRoute.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +105,8 @@
 		4805D0981C5AF86400C397DA /* ScalableRoute */ = {
 			isa = PBXGroup;
 			children = (
+				9D59AB4C1C6E6E14008D22CF /* GoogleMapsKeyProvider.h */,
+				9D59AB4D1C6E6E14008D22CF /* GoogleMapsKeyProvider.m */,
 				486310DC1C5FDB1200B4E623 /* Networking */,
 				4805D09C1C5AF86400C397DA /* AppDelegate.h */,
 				4805D09D1C5AF86400C397DA /* AppDelegate.m */,
@@ -305,6 +311,7 @@
 				486310DF1C5FDB3D00B4E623 /* SRSessionManager.m in Sources */,
 				4805D09E1C5AF86400C397DA /* AppDelegate.m in Sources */,
 				4805D09B1C5AF86400C397DA /* main.m in Sources */,
+				9D59AB4E1C6E6E14008D22CF /* GoogleMapsKeyProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D59AB4F1C6E6E14008D22CF /* GoogleMapsKeyProvider.m in Sources */,
 				4805D0B41C5AF86400C397DA /* ScalableRouteTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +441,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ScalableRoute/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"PROJECT_DIR=@\\\"\"$PROJECT_DIR\"\\\"",
+				);
 				INFOPLIST_FILE = ScalableRoute/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shpasta.ScalableRoute;

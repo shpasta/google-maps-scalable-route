@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "GoogleMaps/GoogleMaps.h"
+#import "GoogleMapsKeyProvider.h"
 
 @interface AppDelegate ()
 
@@ -17,9 +18,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
     // Key for google maps services
-    [GMSServices provideAPIKey:kGoogleMapsApiKey];
+    [GMSServices provideAPIKey:[GoogleMapsKeyProvider debugApiKey]];
     
     return YES;
 }

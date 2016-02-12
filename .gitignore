@@ -1,1 +1,7 @@
+.DS_Store
+ScalableRoute.xcodeproj/xcuserdata
+ScalableRoute.xcworkspace/xcuserdata
+ScalableRoute.xcodeproj/project.xcworkspace/xcuserdata
+build
 Pods
+GoogleMapsKey.plist
