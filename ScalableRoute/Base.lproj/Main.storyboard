@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--Map-->
+        <!--Delegate-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
@@ -20,6 +20,10 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jtj-VY-oh0" customClass="GMSMapView">
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="V6n-Iv-3kg"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -30,8 +34,17 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jtj-VY-oh0" secondAttribute="bottom" id="dh2-YB-KWl"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Map" id="wUT-Cn-aUe"/>
+                    <navigationItem key="navigationItem" title="Map" id="wUT-Cn-aUe">
+                        <barButtonItem key="rightBarButtonItem" title="Reset" id="7mq-yo-kpn">
+                            <connections>
+                                <action selector="actionReset:" destination="BYZ-38-t0r" id="cla-0n-ajt"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="mapView" destination="jtj-VY-oh0" id="jfi-ZY-CDM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

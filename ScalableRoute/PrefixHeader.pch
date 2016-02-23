@@ -13,5 +13,6 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 //#define kGoogleMapsApiKey @"insert_you_api_key_here"
+#define kDirectionsGoogleMapsApi @"https://maps.googleapis.com/maps/api/directions/json"
 
 #endif /* PrefixHeader_pch */
