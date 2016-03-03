@@ -10,5 +10,6 @@
 
 @interface GoogleMapsKeyProvider : NSObject
 + (void)generateDebugApiKeyFile;
-+ (NSString *)debugApiKey;
++ (NSString *)debugMapsApiKey;
++ (NSString *)debugDirectionsApiKey;
 @end

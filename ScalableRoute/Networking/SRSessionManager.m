@@ -51,7 +51,7 @@
                              @"destination": destinaitonString,
                              @"sensor": @NO,
                              @"waypoints": waypointsString,
-                             @"key": [GoogleMapsKeyProvider debugApiKey]}; // provide directions api key here
+                             @"key": [GoogleMapsKeyProvider debugDirectionsApiKey]};
     
     [self GET:kDirectionsGoogleMapsApi parameters:params progress:nil success:^(NSURLSessionTask *task, id responseObject) {
         NSLog(@"JSON: %@", responseObject);

@@ -42,6 +42,7 @@
 #pragma mark - GMSMapView Delegate -
 
 //https://developers.google.com/maps/documentation/ios-sdk/reference/protocol_g_m_s_map_view_delegate-p.html#a0499f484d9ea51041babd3ac8dcc7b27
+
 - (void)mapView:(GMSMapView *)mapView didLongPressAtCoordinate:(CLLocationCoordinate2D)coordinate {
     if (CLLocationCoordinate2DIsValid(coordinate) == false) {
         NSLog(@"Warning: Location is invalid: %f, %f", coordinate.latitude, coordinate.longitude);

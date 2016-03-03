@@ -19,7 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Key for google maps services
-    [GMSServices provideAPIKey:[GoogleMapsKeyProvider debugApiKey]];
+    
+//    [GoogleMapsKeyProvider generateDebugApiKeyFile];
+    [GMSServices provideAPIKey:[GoogleMapsKeyProvider debugMapsApiKey]];
     
     return YES;
 }
